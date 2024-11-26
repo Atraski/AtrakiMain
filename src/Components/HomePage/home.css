@@ -1,0 +1,42 @@
+/* Minimal styling for Locomotive Scroll */
+[data-scroll-container] {
+    overflow: hidden;
+  }
+  
+  [data-scroll-section] {
+    position: relative;
+  }
+  
+  [data-scroll] {
+    will-change: transform;
+  }
+
+  @media (max-width: 560px) {
+    .responsive-marquee {
+      margin-top: 7rem !important;
+    }
+    .heroSection {
+      height: 25rem !important;
+    }
+    .homeAnimate {
+      margin-top: 5rem !important;
+    }
+   
+  }
+  
+
+  /* @media  (min-width: 700px){
+         .heroSection{
+          height: 60rem;
+
+         }
+         .homeAnimate{
+          margin-top: 5rem;
+         }
+         .responsive-marquee{
+          font-size: 60px;
+          margin-top: 35rem;
+
+         }
+  } */
+  

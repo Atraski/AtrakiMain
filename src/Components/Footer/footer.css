@@ -1,0 +1,13 @@
+footer {
+ 
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    z-index: -50;
+  }
+
+  
+    

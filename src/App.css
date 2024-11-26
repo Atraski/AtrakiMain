@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+
+body{
+   background-color: black;
+    margin: 0px;
+    font-family: 'Manrope', sans-serif;
+}
+.header {
+    position: relative; /* Or use 'fixed' if you want the header to stick at the top */
+    z-index: 1000; /* Ensure it's higher than the parallax section */
+  }
+  
+  .burgerActive {
+    z-index: 1001; /* You can adjust this if necessary for the menu button */
+  }
+  
+  .navbar-active {
+    position: absolute;
+    z-index: 1002; /* Ensure the navbar is displayed above everything else */
+  }
+
+  /* App.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.w-full.min-h-screen {
+  flex: 1; /*Ensures this part takes up the remaining space */
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+}
+
+  

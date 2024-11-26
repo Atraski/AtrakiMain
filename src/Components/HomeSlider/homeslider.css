@@ -1,0 +1,45 @@
+.collection-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 0;
+    transition: background-color 0.5s ease;
+  }
+  
+  .collection-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cards-container {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+    cursor: grab;
+    width: 3000px; /* Ensure large width for horizontal scrolling */
+    overflow: hidden;
+  }
+  
+  .card {
+    min-width: 400px;
+    height: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .card h3 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.5rem;
+  }
+  
